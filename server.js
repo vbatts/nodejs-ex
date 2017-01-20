@@ -78,7 +78,7 @@ app.get('/', function (req, res) {
 
 app.get('/waffles', function (req, res) {
   res.send('{ waffles: true }');
-}
+});
 
 app.get('/pagecount', function (req, res) {
   // try to initialize the db on every request if it's not already
